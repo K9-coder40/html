@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        body{
+            background-color: lavender;
+        }
+        table{
+            /* border-width: 2px;
+            border-color: magenta;
+            border-style: dashed; */
+            border:1px solid green;
+            width:50%;
+            margin: 20px auto;
+
+        }
+        th{
+            background-color: aquamarine;
+        }
+
+        th,td{
+            border:1px solid green;
+        }
+        h3{
+            text-align: center;
+            color:blue;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Student Information Table</h3>
+    <table>
+        <!-- first row -->
+         <tr>
+            <th>Student name</th>
+            <th>Age</th>
+            <th>Course</th>
+         </tr>
+         <!-- second row -->
+          <tr>
+            <td>jane</td>
+            <td>19</td>
+            <td>MIT</td>
+          </tr>
+          <!-- 3rd row -->
+           <tr>
+            <td>kamau</td>
+            <td>21</td>
+            <td>cyber security</td>
+           </tr>
+           <!-- 4th row -->
+            <tr>
+                <td>mary</td>
+                <td>20</td>
+                <td rowspan="2">Data science</td>
+            </tr>
+            <!-- last row -->
+             <tr>
+                <td>john</td>
+                <td>19</td>
+                
+             </tr>
+
+    </table>
+    
+</body>
+</html>
