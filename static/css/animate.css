@@ -1,0 +1,14 @@
+#about{
+   color:red;
+    animation:myanimation 3s 5;
+}
+@keyframes myanimation{
+    from{
+        color: rgb(174, 127, 6);
+        transform: translateX(0px);
+    }
+    to{
+        color: rgb(243, 5, 255);
+        transform: translateX(600px);
+    }
+}
